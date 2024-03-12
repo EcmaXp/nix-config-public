@@ -1,0 +1,17 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-d": ["editor::SelectNext", { "replace_newest": false }],
+      "ctrl-alt-f": ["editor::SelectNext", { "replace_newest": true }],
+      "ctrl-alt-shift-f": [
+        "editor::SelectPrevious",
+        { "replace_newest": true }
+      ],
+      "pageup": ["editor::MovePageUp", { "center_cursor": true }],
+      "pagedown": ["editor::MovePageDown", { "center_cursor": true }],
+      "ctrl-space": "editor::ShowCompletions",
+      "cmd-shift-b": "editor::FindAllReferences"
+    }
+  }
+]
